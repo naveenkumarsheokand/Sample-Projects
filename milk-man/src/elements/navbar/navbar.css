@@ -70,8 +70,86 @@
   font-size: 2.3rem;
   height: 3rem;
   color: rgb(51, 0, 0);
-  
 }
 .navItems {
   margin: 0.5rem 1rem;
+}
+/* now we add code for bigger screens */
+.longNav{
+  display: none;
+  height: 100%;
+  margin-left: auto;
+  margin-right: 2rem;
+
+}
+.longNav > ul{
+  display: flex;
+  list-style-type: none;
+  height: 100%;
+
+}
+.longNavItems{
+align-content: center;
+}
+.longNavLink{
+  
+  height: 100%;
+  font-size: 1.8rem;
+  color: white;
+  text-decoration: none;
+  margin:0 0.5rem;
+  
+}
+.longNavItems:hover{
+  background-color: white;
+  border-radius: 25%;
+}
+.longNavItems:hover .longNavLink{
+  color: rgb(241, 13, 13);
+  
+}
+/* media queries for screen */
+@media only screen and (min-width: 320px) and (max-width: 500px) {
+}
+@media only screen and (max-width: 270px) {
+  .navbar img{
+    margin-right: auto;
+  }
+  .menu{
+    margin-left:auto;
+    
+  }
+  .navbar h1{
+    display: none;
+  }
+}
+@media only screen and (min-width: 820px) and (max-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .longNav{
+    display: inline-block;
+  }
+  .navbar h1 {
+    color: aquamarine;
+    margin-left: 1rem;
+    margin-right: auto;
+    border-right: 2px solid rgb(243, 78, 2);
+    padding-right: 2rem;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .longNav{
+    display: inline-block;
+  }
+  .navbar h1 {
+    color: aquamarine;
+    margin-left: 1rem;
+    margin-right: auto;
+    border-right: 2px solid rgb(243, 78, 2);
+    padding-right: 2rem;
+  }
 }
