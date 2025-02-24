@@ -1,0 +1,18 @@
+/* First define some default property for all */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/* Second define some property for div root container 
+in Html id = root */
+#root{
+    background-image: url("./assests/homeback.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100vmin 100vh;
+    background-attachment: fixed;
+    height:100vh; 
+    
+    
+}
