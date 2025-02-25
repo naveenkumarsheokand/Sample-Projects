@@ -1,0 +1,16 @@
+.footer{
+    color: green;
+    text-align: center;
+    height: 1.6rem;
+    background-color: rgb(252, 252, 252,0.5);
+}
+.footer > h4{
+    display: inline-block;
+    color: rgb(84, 17, 238);
+    margin:0.3rem 0;
+}
+.footer > b{
+    color: black;
+    margin-left: 0.5rem;
+    
+}
