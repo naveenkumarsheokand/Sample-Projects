@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Livvic";
+    src: url("../../fonts/Livvic/Livvic-Regular.ttf" ) format("truetype");
+}
+
+.introduction-div{
+    font-size: 10px;
+    padding: 4.8em 0em;
+    background-color: #324A35;
+    
+}
+#introImg{
+    height: 5em;
+}

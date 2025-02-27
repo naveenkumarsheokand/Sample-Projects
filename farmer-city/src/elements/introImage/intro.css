@@ -1,0 +1,133 @@
+/* add font */
+@font-face {
+  font-family: "Livvic";
+  src: url("../../fonts/Livvic/Livvic-Regular.ttf") format("truetype");
+}
+/* define div css property */
+.introImage {
+  font-size: 16px;
+  background-image: url("../../assets/background.png");
+  height: 85vh;
+  background-size: 100vw 100%;
+  font-family: "Livvic", sans-serif;
+  align-content: center;
+  padding-left: 7em;
+  width: 100%;
+}
+.introDiv {
+  width: 39.8em;
+}
+.introImage h3:first-of-type {
+  font-family: "Livvic", sans-serif;
+  color: white;
+  font-size: 1.3em;
+
+  width: 100%;
+}
+/* adding leaf on heading */
+.divLeaf {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  margin: 0px 0px 0.5em;
+}
+.divLeaf > h3:first-of-type {
+  font-family: "Livvic", sans-serif;
+
+  color: #f7c35f;
+  font-size: 4.4em;
+
+  width: 100%;
+}
+#upperImg {
+  position: absolute;
+  top: -2em;
+  right: 1.3em;
+}
+.introImage h3:nth-of-type(2) {
+  color: white;
+  font-family: "Livvic", sans-serif;
+  font-size: 4.375em;
+  margin: 0px 0px 0.5em;
+
+  width: 100%;
+}
+.introImage p {
+  color: white;
+  font-family: cursive, sans-serif;
+  font-size: 1em;
+  margin: 1em 0px 0px;
+
+  width: 90%;
+}
+.introDiv > button {
+  color: black;
+  font-family: "Livvic", sans-serif;
+  font-size: 1em;
+  padding: 1em 2.2em;
+  background-color: #f7c35f;
+  border-radius: 0.8em;
+  margin: 2.7em 0em;
+  border-style: none;
+  cursor: pointer;
+}
+/* media queries */
+@media only screen and (max-width: 950px) {
+  .introImage {
+    justify-content: center;
+    font-size: 14px;
+  }
+  .introDiv {
+    width: 90%;
+  }
+  #upperImg {
+    display: none;
+  }
+  .introDiv > h3:first-of-type{
+    font-size: 2em;
+  }
+  #underImg{
+    width: 18em;
+  }
+  .introDiv > p{
+    font-size: 1.6em;
+    width:70%;
+  }
+  .introDiv > button{
+    font-size: 1.3em;
+  }
+}
+@media only screen and (max-width:750px){
+    .introDiv > h3:first-of-type{
+        font-size: 1.4em;
+      }
+      #underImg{
+        width: 14em;
+      }
+      .divLeaf > h3:first-of-type{
+        font-size: 3em;
+      }
+      .introDiv > h3:last-of-type{
+        font-size: 3em;
+      }
+      .introDiv > p{
+        font-size: 1.2em;
+        width:70%;
+      }
+      .introDiv > button{
+        font-size: 1.2em;
+      }
+}
+@media only screen and (max-width: 500px) {
+  .introImage {
+    padding-right: 0;
+    padding-left: 0.8em;
+    font-size: 12px;
+  }
+  .introDiv {
+    width: 100%;
+  }
+  #upperImg {
+    display: none;
+  }
+}
